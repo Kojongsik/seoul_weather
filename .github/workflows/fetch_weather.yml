@@ -38,12 +38,3 @@ jobs:
           git add seoul_weather.csv
           git commit -m "Update weather data (auto)"
           git push
-
-
-
-
-
-
-
-
-        
