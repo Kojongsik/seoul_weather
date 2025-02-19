@@ -29,7 +29,7 @@ file_exist = os.path.isfile(csv_filename)
 
 # mode name = 'a' -> if not is file -> crate
 # if is file -> write
-with open("csv_filename", "a", newline="")as file:
+with open(csv_filename, "a", newline="")as file:
     writer = csv.writer(file)
 
     # 파일이 존재하지 않는다. -> 헤더가 없다
